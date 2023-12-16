@@ -1,8 +1,8 @@
-const Informacion = (props) => {
+const Informacion = ({tituloSecundario}) => {
   return (
     <section>
       <h2>Conceptos basicos de bootstrap</h2>
-      <h3>{props.tituloSecundario}</h3>
+      <h3>{tituloSecundario}</h3>
       <p>React es una biblioteca de JavaScript desarrollada por Facebook que se utiliza para construir interfaces de usuario interactivas y eficientes. Su enfoque se centra en la creación de componentes reutilizables que representan diferentes partes de la interfaz de usuario. React utiliza un paradigma de programación declarativa, lo que significa que los desarrolladores describen cómo debería ser la interfaz de usuario y React se encarga de manejar los cambios de manera eficiente.</p>
 
       <ol className="list-group">
